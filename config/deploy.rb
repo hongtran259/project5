@@ -18,7 +18,6 @@ after 'deploy:publishing', 'deploy:restart'
 
 # Default deploy_to directory is /var/www/project5
 set :deploy_to, "/home/tranhong/project5/deploy"
-
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
 

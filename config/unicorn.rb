@@ -1,4 +1,4 @@
-root = "/home/deploy/project5/current"
+root = "/home/tranhong/project5"
 working_directory root
 #pid của unicorn khi chạy
 pid "#{root}/tmp/pids/unicorn.pid"
@@ -6,7 +6,7 @@ pid "#{root}/tmp/pids/unicorn.pid"
 stderr_path "#{root}/log/unicorn.error.log"
 stdout_path "#{root}/log/unicorn.access.log"
 
-listen "/home/deploy/project5/shared/sockets/unicorn.sock"
+listen "/home/tranhong/project5/shared/sockets/unicorn.sock"
 worker_processes 2
 timeout 30
 
